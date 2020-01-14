@@ -1,0 +1,29 @@
+PODS:
+  - DropdownMenu (1.0.0)
+  - YSCheckBox (0.0.1)
+
+DEPENDENCIES:
+  - DropdownMenu (from `https://github.com/nmattisson/DropdownMenu.git`)
+  - YSCheckBox (from `https://github.com/sekies/YSCheckBox.git`)
+
+EXTERNAL SOURCES:
+  DropdownMenu:
+    :git: https://github.com/nmattisson/DropdownMenu.git
+  YSCheckBox:
+    :git: https://github.com/sekies/YSCheckBox.git
+
+CHECKOUT OPTIONS:
+  DropdownMenu:
+    :commit: 554ea4ff51edd414dee03c6a008fb0316db14d89
+    :git: https://github.com/nmattisson/DropdownMenu.git
+  YSCheckBox:
+    :commit: b7220246caec53ddf0ef9ae401b6563f2c622920
+    :git: https://github.com/sekies/YSCheckBox.git
+
+SPEC CHECKSUMS:
+  DropdownMenu: 5777e17ac6ddbc69b151719b83a838da81440786
+  YSCheckBox: 2f6b5e8d66784ba34844093a84198dcecdf69afa
+
+PODFILE CHECKSUM: 836ca7c32e50a49bf7d9faa030c2b885986d7923
+
+COCOAPODS: 1.8.4

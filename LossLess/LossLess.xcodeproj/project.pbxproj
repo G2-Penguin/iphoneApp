@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67299B723AAA02400ECABDE /* ロゴ1.png in Resources */ = {isa = PBXBuildFile; fileRef = A67299B623AAA02400ECABDE /* ロゴ1.png */; };
+		A67299B923AAA04E00ECABDE /* Penguin2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A67299B823AAA04E00ECABDE /* Penguin2_1.png */; };
+		A6823E44237B1A8900C02570 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6823E42237B1A8900C02570 /* TableViewCell.swift */; };
+		A6823E45237B1A8900C02570 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6823E43237B1A8900C02570 /* TableViewCell.xib */; };
+		A692F59523CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = A692F57023CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-input-files.xcfilelist */; };
+		A692F59623CE3A8A002A3902 /* Pods-LossLess-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = A692F57123CE3A8A002A3902 /* Pods-LossLess-frameworks.sh */; };
+		A692F59723CE3A8A002A3902 /* Pods-LossLess.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A692F57223CE3A8A002A3902 /* Pods-LossLess.release.xcconfig */; };
+		A692F59823CE3A8A002A3902 /* Pods-LossLess-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A692F57323CE3A8A002A3902 /* Pods-LossLess-Info.plist */; };
+		A692F59923CE3A8A002A3902 /* Pods-LossLess-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A692F57423CE3A8A002A3902 /* Pods-LossLess-acknowledgements.markdown */; };
+		A692F59A23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = A692F57523CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-output-files.xcfilelist */; };
+		A692F59B23CE3A8A002A3902 /* Pods-LossLess.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A692F57723CE3A8A002A3902 /* Pods-LossLess.debug.xcconfig */; };
+		A692F59C23CE3A8A002A3902 /* Pods-LossLess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A692F57823CE3A8A002A3902 /* Pods-LossLess-dummy.m */; };
+		A692F59D23CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = A692F57923CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-output-files.xcfilelist */; };
+		A692F59E23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = A692F57A23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-input-files.xcfilelist */; };
+		A692F59F23CE3A8A002A3902 /* Pods-LossLess-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A692F57B23CE3A8A002A3902 /* Pods-LossLess-acknowledgements.plist */; };
+		A692F5A023CE3A8A002A3902 /* YSCheckBox.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A692F57F23CE3A8A002A3902 /* YSCheckBox.xcconfig */; };
+		A692F5A123CE3A8A002A3902 /* YSCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A692F58123CE3A8A002A3902 /* YSCheckBox-dummy.m */; };
+		A692F5A223CE3A8A002A3902 /* YSCheckBox-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A692F58323CE3A8A002A3902 /* YSCheckBox-Info.plist */; };
+		A692F5A323CE3A8A002A3902 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = A692F58423CE3A8A002A3902 /* Manifest.lock */; };
+		A692F5A423CE3A8A002A3902 /* YSCheckBox.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = A692F58623CE3A8A002A3902 /* YSCheckBox.podspec.json */; };
+		A692F5A523CE3A8A002A3902 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A692F58823CE3A8A002A3902 /* LICENSE */; };
+		A692F5A623CE3A8A002A3902 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A692F58923CE3A8A002A3902 /* README.md */; };
+		A692F5A723CE3A8A002A3902 /* YSCheckBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692F58B23CE3A8A002A3902 /* YSCheckBoxModel.swift */; };
+		A692F5A823CE3A8A002A3902 /* YSCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692F58C23CE3A8A002A3902 /* YSCheckBox.swift */; };
+		A692F5A923CE3A8A002A3902 /* YSCheckBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692F58D23CE3A8A002A3902 /* YSCheckBoxViewController.swift */; };
+		A692F5AA23CE3A8A002A3902 /* YSCheckBoxGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692F58E23CE3A8A002A3902 /* YSCheckBoxGroupView.swift */; };
+		A692F5BC23CE54FA002A3902 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A692F5B023CE54FA002A3902 /* LICENSE */; };
+		A692F5BD23CE54FA002A3902 /* DropdownMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A692F5B223CE54FA002A3902 /* DropdownMenuController.m */; };
+		A692F5BE23CE54FA002A3902 /* DropdownMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A692F5B323CE54FA002A3902 /* DropdownMenuSegue.m */; };
+		A692F5BF23CE54FA002A3902 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A692F5B623CE54FA002A3902 /* readme.md */; };
+		A6A7610F2373E7FD00AA49CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A7610E2373E7FD00AA49CB /* AppDelegate.swift */; };
+		A6A761112373E7FD00AA49CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A761102373E7FD00AA49CB /* ViewController.swift */; };
+		A6A761142373E7FD00AA49CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A761122373E7FD00AA49CB /* Main.storyboard */; };
+		A6A761162373E7FE00AA49CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A761152373E7FE00AA49CB /* Assets.xcassets */; };
+		A6A761192373E7FE00AA49CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A761172373E7FE00AA49CB /* LaunchScreen.storyboard */; };
+		D55E6AAFD989D92708CE234E /* Pods_LossLess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC60F83416D654EFAFCBE550 /* Pods_LossLess.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A692F59123CE3A8A002A3902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A692F56B23CE3A8A002A3902 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64211F8328F69DE08B642AB30F513B5C;
+			remoteInfo = "Pods-LossLess";
+		};
+		A692F59323CE3A8A002A3902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A692F56B23CE3A8A002A3902 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7EBC720218893DF5AB812B57223B9F55;
+			remoteInfo = YSCheckBox;
+		};
+		A692F5BA23CE54FA002A3902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A692F56B23CE3A8A002A3902 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9667F02090BBA474EA70E5E5DF2E4CF;
+			remoteInfo = DropdownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0607A023CD21B9BF09DD81 /* Pods-LossLess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LossLess.debug.xcconfig"; path = "Target Support Files/Pods-LossLess/Pods-LossLess.debug.xcconfig"; sourceTree = "<group>"; };
+		A67299B623AAA02400ECABDE /* ロゴ1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ロゴ1.png"; sourceTree = "<group>"; };
+		A67299B823AAA04E00ECABDE /* Penguin2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penguin2_1.png; sourceTree = "<group>"; };
+		A6823E42237B1A8900C02570 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A6823E43237B1A8900C02570 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		A692F52723CE39E1002A3902 /* LossLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LossLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A692F56B23CE3A8A002A3902 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		A692F57023CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-LossLess-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		A692F57123CE3A8A002A3902 /* Pods-LossLess-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-LossLess-frameworks.sh"; sourceTree = "<group>"; };
+		A692F57223CE3A8A002A3902 /* Pods-LossLess.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-LossLess.release.xcconfig"; sourceTree = "<group>"; };
+		A692F57323CE3A8A002A3902 /* Pods-LossLess-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-LossLess-Info.plist"; sourceTree = "<group>"; };
+		A692F57423CE3A8A002A3902 /* Pods-LossLess-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-LossLess-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A692F57523CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-LossLess-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		A692F57623CE3A8A002A3902 /* Pods-LossLess-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-LossLess-umbrella.h"; sourceTree = "<group>"; };
+		A692F57723CE3A8A002A3902 /* Pods-LossLess.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-LossLess.debug.xcconfig"; sourceTree = "<group>"; };
+		A692F57823CE3A8A002A3902 /* Pods-LossLess-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-LossLess-dummy.m"; sourceTree = "<group>"; };
+		A692F57923CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-LossLess-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		A692F57A23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-LossLess-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		A692F57B23CE3A8A002A3902 /* Pods-LossLess-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-LossLess-acknowledgements.plist"; sourceTree = "<group>"; };
+		A692F57C23CE3A8A002A3902 /* Pods-LossLess.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LossLess.modulemap"; sourceTree = "<group>"; };
+		A692F57E23CE3A8A002A3902 /* YSCheckBox-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YSCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		A692F57F23CE3A8A002A3902 /* YSCheckBox.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = YSCheckBox.xcconfig; sourceTree = "<group>"; };
+		A692F58023CE3A8A002A3902 /* YSCheckBox-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YSCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		A692F58123CE3A8A002A3902 /* YSCheckBox-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YSCheckBox-dummy.m"; sourceTree = "<group>"; };
+		A692F58223CE3A8A002A3902 /* YSCheckBox.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = YSCheckBox.modulemap; sourceTree = "<group>"; };
+		A692F58323CE3A8A002A3902 /* YSCheckBox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YSCheckBox-Info.plist"; sourceTree = "<group>"; };
+		A692F58423CE3A8A002A3902 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		A692F58623CE3A8A002A3902 /* YSCheckBox.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = YSCheckBox.podspec.json; sourceTree = "<group>"; };
+		A692F58823CE3A8A002A3902 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A692F58923CE3A8A002A3902 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A692F58B23CE3A8A002A3902 /* YSCheckBoxModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSCheckBoxModel.swift; sourceTree = "<group>"; };
+		A692F58C23CE3A8A002A3902 /* YSCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSCheckBox.swift; sourceTree = "<group>"; };
+		A692F58D23CE3A8A002A3902 /* YSCheckBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSCheckBoxViewController.swift; sourceTree = "<group>"; };
+		A692F58E23CE3A8A002A3902 /* YSCheckBoxGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSCheckBoxGroupView.swift; sourceTree = "<group>"; };
+		A692F5B023CE54FA002A3902 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A692F5B223CE54FA002A3902 /* DropdownMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenuController.m; sourceTree = "<group>"; };
+		A692F5B323CE54FA002A3902 /* DropdownMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenuSegue.m; sourceTree = "<group>"; };
+		A692F5B423CE54FA002A3902 /* DropdownMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenuSegue.h; sourceTree = "<group>"; };
+		A692F5B523CE54FA002A3902 /* DropdownMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenuController.h; sourceTree = "<group>"; };
+		A692F5B623CE54FA002A3902 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		A6A7610E2373E7FD00AA49CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6A761102373E7FD00AA49CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6A761132373E7FD00AA49CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A761152373E7FE00AA49CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A761182373E7FE00AA49CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A7611A2373E7FE00AA49CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC60F83416D654EFAFCBE550 /* Pods_LossLess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LossLess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94045D4DB3161F9297D8F6E /* Pods-LossLess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LossLess.release.xcconfig"; path = "Target Support Files/Pods-LossLess/Pods-LossLess.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A761082373E7FC00AA49CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55E6AAFD989D92708CE234E /* Pods_LossLess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B620FF8D73F191208263221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC60F83416D654EFAFCBE550 /* Pods_LossLess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A692F56A23CE3A8A002A3902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A692F5AF23CE54FA002A3902 /* DropdownMenu */,
+				A692F56B23CE3A8A002A3902 /* Pods.xcodeproj */,
+				A692F56E23CE3A8A002A3902 /* Target Support Files */,
+				A692F58423CE3A8A002A3902 /* Manifest.lock */,
+				A692F58523CE3A8A002A3902 /* Local Podspecs */,
+				A692F58723CE3A8A002A3902 /* YSCheckBox */,
+				4C0607A023CD21B9BF09DD81 /* Pods-LossLess.debug.xcconfig */,
+				C94045D4DB3161F9297D8F6E /* Pods-LossLess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A692F56C23CE3A8A002A3902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A692F5BB23CE54FA002A3902 /* DropdownMenu.framework */,
+				A692F59223CE3A8A002A3902 /* Pods_LossLess.framework */,
+				A692F59423CE3A8A002A3902 /* YSCheckBox.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A692F56E23CE3A8A002A3902 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A692F56F23CE3A8A002A3902 /* Pods-LossLess */,
+				A692F57D23CE3A8A002A3902 /* YSCheckBox */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		A692F56F23CE3A8A002A3902 /* Pods-LossLess */ = {
+			isa = PBXGroup;
+			children = (
+				A692F57023CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-input-files.xcfilelist */,
+				A692F57123CE3A8A002A3902 /* Pods-LossLess-frameworks.sh */,
+				A692F57223CE3A8A002A3902 /* Pods-LossLess.release.xcconfig */,
+				A692F57323CE3A8A002A3902 /* Pods-LossLess-Info.plist */,
+				A692F57423CE3A8A002A3902 /* Pods-LossLess-acknowledgements.markdown */,
+				A692F57523CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-output-files.xcfilelist */,
+				A692F57623CE3A8A002A3902 /* Pods-LossLess-umbrella.h */,
+				A692F57723CE3A8A002A3902 /* Pods-LossLess.debug.xcconfig */,
+				A692F57823CE3A8A002A3902 /* Pods-LossLess-dummy.m */,
+				A692F57923CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-output-files.xcfilelist */,
+				A692F57A23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-input-files.xcfilelist */,
+				A692F57B23CE3A8A002A3902 /* Pods-LossLess-acknowledgements.plist */,
+				A692F57C23CE3A8A002A3902 /* Pods-LossLess.modulemap */,
+			);
+			path = "Pods-LossLess";
+			sourceTree = "<group>";
+		};
+		A692F57D23CE3A8A002A3902 /* YSCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				A692F57E23CE3A8A002A3902 /* YSCheckBox-umbrella.h */,
+				A692F57F23CE3A8A002A3902 /* YSCheckBox.xcconfig */,
+				A692F58023CE3A8A002A3902 /* YSCheckBox-prefix.pch */,
+				A692F58123CE3A8A002A3902 /* YSCheckBox-dummy.m */,
+				A692F58223CE3A8A002A3902 /* YSCheckBox.modulemap */,
+				A692F58323CE3A8A002A3902 /* YSCheckBox-Info.plist */,
+			);
+			path = YSCheckBox;
+			sourceTree = "<group>";
+		};
+		A692F58523CE3A8A002A3902 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+				A692F58623CE3A8A002A3902 /* YSCheckBox.podspec.json */,
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		A692F58723CE3A8A002A3902 /* YSCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				A692F58823CE3A8A002A3902 /* LICENSE */,
+				A692F58923CE3A8A002A3902 /* README.md */,
+				A692F58A23CE3A8A002A3902 /* YSCheckBox */,
+			);
+			path = YSCheckBox;
+			sourceTree = "<group>";
+		};
+		A692F58A23CE3A8A002A3902 /* YSCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				A692F58B23CE3A8A002A3902 /* YSCheckBoxModel.swift */,
+				A692F58C23CE3A8A002A3902 /* YSCheckBox.swift */,
+				A692F58D23CE3A8A002A3902 /* YSCheckBoxViewController.swift */,
+				A692F58E23CE3A8A002A3902 /* YSCheckBoxGroupView.swift */,
+			);
+			path = YSCheckBox;
+			sourceTree = "<group>";
+		};
+		A692F5AF23CE54FA002A3902 /* DropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A692F5B023CE54FA002A3902 /* LICENSE */,
+				A692F5B123CE54FA002A3902 /* DropdownMenu */,
+				A692F5B623CE54FA002A3902 /* readme.md */,
+			);
+			path = DropdownMenu;
+			sourceTree = "<group>";
+		};
+		A692F5B123CE54FA002A3902 /* DropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A692F5B223CE54FA002A3902 /* DropdownMenuController.m */,
+				A692F5B323CE54FA002A3902 /* DropdownMenuSegue.m */,
+				A692F5B423CE54FA002A3902 /* DropdownMenuSegue.h */,
+				A692F5B523CE54FA002A3902 /* DropdownMenuController.h */,
+			);
+			path = DropdownMenu;
+			sourceTree = "<group>";
+		};
+		A6A761022373E7FC00AA49CB = {
+			isa = PBXGroup;
+			children = (
+				A6A7610D2373E7FC00AA49CB /* LossLess */,
+				A692F56A23CE3A8A002A3902 /* Pods */,
+				A692F52723CE39E1002A3902 /* LossLess.app */,
+				1B620FF8D73F191208263221 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A7610D2373E7FC00AA49CB /* LossLess */ = {
+			isa = PBXGroup;
+			children = (
+				A6A7610E2373E7FD00AA49CB /* AppDelegate.swift */,
+				A6A761102373E7FD00AA49CB /* ViewController.swift */,
+				A6A761122373E7FD00AA49CB /* Main.storyboard */,
+				A6823E42237B1A8900C02570 /* TableViewCell.swift */,
+				A6823E43237B1A8900C02570 /* TableViewCell.xib */,
+				A6A761152373E7FE00AA49CB /* Assets.xcassets */,
+				A6A761172373E7FE00AA49CB /* LaunchScreen.storyboard */,
+				A6A7611A2373E7FE00AA49CB /* Info.plist */,
+				A67299B623AAA02400ECABDE /* ロゴ1.png */,
+				A67299B823AAA04E00ECABDE /* Penguin2_1.png */,
+			);
+			path = LossLess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A7610A2373E7FC00AA49CB /* LossLess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A7611D2373E7FE00AA49CB /* Build configuration list for PBXNativeTarget "LossLess" */;
+			buildPhases = (
+				DC200D9B8E9DB21788E59657 /* [CP] Check Pods Manifest.lock */,
+				A6A761072373E7FC00AA49CB /* Sources */,
+				A6A761082373E7FC00AA49CB /* Frameworks */,
+				A6A761092373E7FC00AA49CB /* Resources */,
+				A1BB2C43F1426E0A9B24FD0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LossLess;
+			productName = LossLess;
+			productReference = A692F52723CE39E1002A3902 /* LossLess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A761032373E7FC00AA49CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = LossLess;
+				TargetAttributes = {
+					A6A7610A2373E7FC00AA49CB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A6A761062373E7FC00AA49CB /* Build configuration list for PBXProject "LossLess" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A761022373E7FC00AA49CB;
+			productRefGroup = A6A761022373E7FC00AA49CB;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A692F56C23CE3A8A002A3902 /* Products */;
+					ProjectRef = A692F56B23CE3A8A002A3902 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A6A7610A2373E7FC00AA49CB /* LossLess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A692F59223CE3A8A002A3902 /* Pods_LossLess.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_LossLess.framework;
+			remoteRef = A692F59123CE3A8A002A3902 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A692F59423CE3A8A002A3902 /* YSCheckBox.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = YSCheckBox.framework;
+			remoteRef = A692F59323CE3A8A002A3902 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A692F5BB23CE54FA002A3902 /* DropdownMenu.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DropdownMenu.framework;
+			remoteRef = A692F5BA23CE54FA002A3902 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A761092373E7FC00AA49CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A692F59D23CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-output-files.xcfilelist in Resources */,
+				A692F59F23CE3A8A002A3902 /* Pods-LossLess-acknowledgements.plist in Resources */,
+				A692F5A423CE3A8A002A3902 /* YSCheckBox.podspec.json in Resources */,
+				A692F5A523CE3A8A002A3902 /* LICENSE in Resources */,
+				A67299B723AAA02400ECABDE /* ロゴ1.png in Resources */,
+				A692F59723CE3A8A002A3902 /* Pods-LossLess.release.xcconfig in Resources */,
+				A692F59A23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-output-files.xcfilelist in Resources */,
+				A692F5A223CE3A8A002A3902 /* YSCheckBox-Info.plist in Resources */,
+				A692F5A023CE3A8A002A3902 /* YSCheckBox.xcconfig in Resources */,
+				A692F59B23CE3A8A002A3902 /* Pods-LossLess.debug.xcconfig in Resources */,
+				A692F59E23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-input-files.xcfilelist in Resources */,
+				A67299B923AAA04E00ECABDE /* Penguin2_1.png in Resources */,
+				A6A761192373E7FE00AA49CB /* LaunchScreen.storyboard in Resources */,
+				A692F5BC23CE54FA002A3902 /* LICENSE in Resources */,
+				A692F59823CE3A8A002A3902 /* Pods-LossLess-Info.plist in Resources */,
+				A692F5A323CE3A8A002A3902 /* Manifest.lock in Resources */,
+				A692F59523CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-input-files.xcfilelist in Resources */,
+				A692F59923CE3A8A002A3902 /* Pods-LossLess-acknowledgements.markdown in Resources */,
+				A6823E45237B1A8900C02570 /* TableViewCell.xib in Resources */,
+				A692F59623CE3A8A002A3902 /* Pods-LossLess-frameworks.sh in Resources */,
+				A6A761162373E7FE00AA49CB /* Assets.xcassets in Resources */,
+				A692F5A623CE3A8A002A3902 /* README.md in Resources */,
+				A692F5BF23CE54FA002A3902 /* readme.md in Resources */,
+				A6A761142373E7FD00AA49CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1BB2C43F1426E0A9B24FD0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LossLess/Pods-LossLess-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LossLess/Pods-LossLess-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LossLess/Pods-LossLess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC200D9B8E9DB21788E59657 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LossLess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A761072373E7FC00AA49CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A692F5AA23CE3A8A002A3902 /* YSCheckBoxGroupView.swift in Sources */,
+				A692F5BD23CE54FA002A3902 /* DropdownMenuController.m in Sources */,
+				A692F5A123CE3A8A002A3902 /* YSCheckBox-dummy.m in Sources */,
+				A692F5A823CE3A8A002A3902 /* YSCheckBox.swift in Sources */,
+				A692F59C23CE3A8A002A3902 /* Pods-LossLess-dummy.m in Sources */,
+				A692F5A923CE3A8A002A3902 /* YSCheckBoxViewController.swift in Sources */,
+				A692F5A723CE3A8A002A3902 /* YSCheckBoxModel.swift in Sources */,
+				A692F5BE23CE54FA002A3902 /* DropdownMenuSegue.m in Sources */,
+				A6823E44237B1A8900C02570 /* TableViewCell.swift in Sources */,
+				A6A761112373E7FD00AA49CB /* ViewController.swift in Sources */,
+				A6A7610F2373E7FD00AA49CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6A761122373E7FD00AA49CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A761132373E7FD00AA49CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A761172373E7FE00AA49CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A761182373E7FE00AA49CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A7611B2373E7FE00AA49CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6A7611C2373E7FE00AA49CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A7611E2373E7FE00AA49CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0607A023CD21B9BF09DD81 /* Pods-LossLess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9942D2CW;
+				INFOPLIST_FILE = LossLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soft.com.LossLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A7611F2373E7FE00AA49CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94045D4DB3161F9297D8F6E /* Pods-LossLess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FN9942D2CW;
+				INFOPLIST_FILE = LossLess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soft.com.LossLess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A761062373E7FC00AA49CB /* Build configuration list for PBXProject "LossLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A7611B2373E7FE00AA49CB /* Debug */,
+				A6A7611C2373E7FE00AA49CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A7611D2373E7FE00AA49CB /* Build configuration list for PBXNativeTarget "LossLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A7611E2373E7FE00AA49CB /* Debug */,
+				A6A7611F2373E7FE00AA49CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A761032373E7FC00AA49CB /* Project object */;
+}
