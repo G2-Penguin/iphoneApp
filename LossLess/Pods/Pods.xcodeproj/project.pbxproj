@@ -8,21 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0432A7484D26DB664D0038C124FF437E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0D5F88EDC29244E002D5C2CCB98A5C71 /* DropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C110092B24AE20249BB494B4BC95FC7 /* DropdownMenu-dummy.m */; };
 		323F9938712196D6D635847545260861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		53C27EF28D5D03E28AA2589742CC4A15 /* DropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6285F0B46AECD27F4132D7725A07AF5E /* DropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7107B473AB7F605240755745E8B0D196 /* YSCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E3F2F92FEAF8589C4B9976F23C234 /* YSCheckBox-dummy.m */; };
 		715DFC011AFB4ED3EFC5F7AFC5C759CB /* YSCheckBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEFF80F6820CE428140BA25561A84D /* YSCheckBoxModel.swift */; };
 		733B958D940F5DD5EE153E97E06D47A0 /* Pods-LossLess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E94B20FA1C655E13C97FCF890A4355 /* Pods-LossLess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75ECEEEB1C5BAAF4A7D53CE0018B5E04 /* YSCheckBoxGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650A2F7B1873AF7C0978DB66AF83E89 /* YSCheckBoxGroupView.swift */; };
-		7B34A7D9BD0037C9D71D866F86398EF8 /* DropdownMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF4FC9AC5598EC605260E8A75AC10A8 /* DropdownMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88ACEA09834A515DD3C7F1C1BA3C7F2D /* YSCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2070B0213B7443230043DC0312FE0E /* YSCheckBox.swift */; };
 		9497C44538D3656A8A18E330EE65A290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9DDF954B0BB724E54F39D0C426FCBA76 /* DropdownMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A6DD770F942532E111FC354756374E /* DropdownMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B38F92078EEF365F9AD5BBEB1772A62F /* DropdownMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0EB2FAA1F3213F7976B78CDBF5337 /* DropdownMenuSegue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C1CE0457C7C55A1A43D19E9D4F1C4D6D /* Pods-LossLess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8053B707EA496409B55D0D33FD3756B1 /* Pods-LossLess-dummy.m */; };
 		C9B79887CAD343AF9AD2E03D7D6F623E /* YSCheckBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905BA2152E02BF6DA1B5535A8EADFA3 /* YSCheckBoxViewController.swift */; };
-		D7A734A1C9C9C0FDB851F706C0D4E07F /* DropdownMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D8C0185B41D1CB985C065F0EB328C /* DropdownMenuController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F1E3FC84820E1408CB2D7E5AA12047E2 /* YSCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48844E11712EB6397D3E2E96C8E56A2A /* YSCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -44,40 +38,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022586252D12DFC548C2992CA3EF8BCE /* DropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropdownMenu.xcconfig; sourceTree = "<group>"; };
-		1C110092B24AE20249BB494B4BC95FC7 /* DropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropdownMenu-dummy.m"; sourceTree = "<group>"; };
 		1E0C3859B3FC4D45846BF6009AAC6472 /* YSCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YSCheckBox-Info.plist"; sourceTree = "<group>"; };
 		258E9320637D96E4D7046D31793E2084 /* Pods-LossLess-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LossLess-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		48844E11712EB6397D3E2E96C8E56A2A /* YSCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSCheckBox-umbrella.h"; sourceTree = "<group>"; };
-		4BFD350C6D127990005244048BE4E4F2 /* DropdownMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropdownMenu-Info.plist"; sourceTree = "<group>"; };
 		5650A2F7B1873AF7C0978DB66AF83E89 /* YSCheckBoxGroupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSCheckBoxGroupView.swift; path = YSCheckBox/YSCheckBoxGroupView.swift; sourceTree = "<group>"; };
 		58E94B20FA1C655E13C97FCF890A4355 /* Pods-LossLess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LossLess-umbrella.h"; sourceTree = "<group>"; };
 		5DC373439C42DC489BAF994B10E0F736 /* YSCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YSCheckBox.modulemap; sourceTree = "<group>"; };
 		5E3DA386CBA6FD12C3BB85F86D5012F4 /* YSCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSCheckBox.xcconfig; sourceTree = "<group>"; };
 		5F98736809B7602402FC078EB6E39AD5 /* Pods-LossLess-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LossLess-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6285F0B46AECD27F4132D7725A07AF5E /* DropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropdownMenu-umbrella.h"; sourceTree = "<group>"; };
-		64211F8328F69DE08B642AB30F513B5C /* Pods_LossLess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LossLess.framework; path = "Pods-LossLess.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64211F8328F69DE08B642AB30F513B5C /* Pods_LossLess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LossLess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABD0124F130B186C35F7B1E874D3F57 /* YSCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSCheckBox-prefix.pch"; sourceTree = "<group>"; };
 		6B2070B0213B7443230043DC0312FE0E /* YSCheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSCheckBox.swift; path = YSCheckBox/YSCheckBox.swift; sourceTree = "<group>"; };
-		7EBC720218893DF5AB812B57223B9F55 /* YSCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSCheckBox.framework; path = YSCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F1803FCD82C2BE496EF96E93AF9A6CA /* DropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		7EBC720218893DF5AB812B57223B9F55 /* YSCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YSCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8053B707EA496409B55D0D33FD3756B1 /* Pods-LossLess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LossLess-dummy.m"; sourceTree = "<group>"; };
 		84331FEA48D108FC6FE7EB324E3F0318 /* Pods-LossLess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LossLess.release.xcconfig"; sourceTree = "<group>"; };
-		873D8C0185B41D1CB985C065F0EB328C /* DropdownMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DropdownMenuController.m; path = DropdownMenu/DropdownMenuController.m; sourceTree = "<group>"; };
 		8A9E3F2F92FEAF8589C4B9976F23C234 /* YSCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSCheckBox-dummy.m"; sourceTree = "<group>"; };
-		8AF4FC9AC5598EC605260E8A75AC10A8 /* DropdownMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DropdownMenuController.h; path = DropdownMenu/DropdownMenuController.h; sourceTree = "<group>"; };
 		9BDEFF80F6820CE428140BA25561A84D /* YSCheckBoxModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSCheckBoxModel.swift; path = YSCheckBox/YSCheckBoxModel.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2A6DD770F942532E111FC354756374E /* DropdownMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DropdownMenuSegue.h; path = DropdownMenu/DropdownMenuSegue.h; sourceTree = "<group>"; };
-		A9667F02090BBA474EA70E5E5DF2E4CF /* DropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropdownMenu.framework; path = DropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9667F02090BBA474EA70E5E5DF2E4CF /* DropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0CD3499B7AF409788760D8A8D0739A /* Pods-LossLess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LossLess.debug.xcconfig"; sourceTree = "<group>"; };
 		BAA2916E0AB85A55E3CD2C86192624FC /* Pods-LossLess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LossLess.modulemap"; sourceTree = "<group>"; };
 		E905BA2152E02BF6DA1B5535A8EADFA3 /* YSCheckBoxViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YSCheckBoxViewController.swift; path = YSCheckBox/YSCheckBoxViewController.swift; sourceTree = "<group>"; };
 		F10305F89EB016D11FCA5683BE7A5BE0 /* Pods-LossLess-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LossLess-frameworks.sh"; sourceTree = "<group>"; };
-		F5C0EB2FAA1F3213F7976B78CDBF5337 /* DropdownMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DropdownMenuSegue.m; path = DropdownMenu/DropdownMenuSegue.m; sourceTree = "<group>"; };
 		FD422C91E3C36562095E073229122624 /* Pods-LossLess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LossLess-Info.plist"; sourceTree = "<group>"; };
-		FE456EEBB5D051C9F9E505BC2FD527C1 /* DropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropdownMenu.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +133,6 @@
 				E905BA2152E02BF6DA1B5535A8EADFA3 /* YSCheckBoxViewController.swift */,
 				0877E2A049533B86EBE209A371BAD3EF /* Support Files */,
 			);
-			name = YSCheckBox;
 			path = YSCheckBox;
 			sourceTree = "<group>";
 		};
@@ -168,33 +151,6 @@
 			);
 			name = "Pods-LossLess";
 			path = "Target Support Files/Pods-LossLess";
-			sourceTree = "<group>";
-		};
-		AAFE76AB728FA539193F3D4981A3D066 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FE456EEBB5D051C9F9E505BC2FD527C1 /* DropdownMenu.modulemap */,
-				022586252D12DFC548C2992CA3EF8BCE /* DropdownMenu.xcconfig */,
-				1C110092B24AE20249BB494B4BC95FC7 /* DropdownMenu-dummy.m */,
-				4BFD350C6D127990005244048BE4E4F2 /* DropdownMenu-Info.plist */,
-				7F1803FCD82C2BE496EF96E93AF9A6CA /* DropdownMenu-prefix.pch */,
-				6285F0B46AECD27F4132D7725A07AF5E /* DropdownMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DropdownMenu";
-			sourceTree = "<group>";
-		};
-		B813D1554DAB17033EE636B8BC878A48 /* DropdownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				8AF4FC9AC5598EC605260E8A75AC10A8 /* DropdownMenuController.h */,
-				873D8C0185B41D1CB985C065F0EB328C /* DropdownMenuController.m */,
-				A2A6DD770F942532E111FC354756374E /* DropdownMenuSegue.h */,
-				F5C0EB2FAA1F3213F7976B78CDBF5337 /* DropdownMenuSegue.m */,
-				AAFE76AB728FA539193F3D4981A3D066 /* Support Files */,
-			);
-			name = DropdownMenu;
-			path = DropdownMenu;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -219,7 +175,6 @@
 		D0F78782A82FA22148E41CA28BC88127 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B813D1554DAB17033EE636B8BC878A48 /* DropdownMenu */,
 				6B31039334B117BA81C9B43DD3BC1121 /* YSCheckBox */,
 			);
 			name = Pods;
@@ -240,9 +195,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C27EF28D5D03E28AA2589742CC4A15 /* DropdownMenu-umbrella.h in Headers */,
-				7B34A7D9BD0037C9D71D866F86398EF8 /* DropdownMenuController.h in Headers */,
-				9DDF954B0BB724E54F39D0C426FCBA76 /* DropdownMenuSegue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,9 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5F88EDC29244E002D5C2CCB98A5C71 /* DropdownMenu-dummy.m in Sources */,
-				D7A734A1C9C9C0FDB851F706C0D4E07F /* DropdownMenuController.m in Sources */,
-				B38F92078EEF365F9AD5BBEB1772A62F /* DropdownMenuSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,7 +646,6 @@
 		};
 		C8B91D98ABEB2C593604EBC357E7CFF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 022586252D12DFC548C2992CA3EF8BCE /* DropdownMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -733,7 +681,6 @@
 		};
 		E512BD9332FDCD69A3D282B4AD300A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 022586252D12DFC548C2992CA3EF8BCE /* DropdownMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

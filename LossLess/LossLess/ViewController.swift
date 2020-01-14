@@ -1,6 +1,5 @@
 import UIKit
 import YSCheckBox
-import DropdownMenu
 
 class ViewController: UIViewController, YSCheckBoxViewControllerDelegate {
     

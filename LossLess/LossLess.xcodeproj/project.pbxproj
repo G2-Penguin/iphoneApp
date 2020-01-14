@@ -33,10 +33,6 @@
 		A692F5A823CE3A8A002A3902 /* YSCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692F58C23CE3A8A002A3902 /* YSCheckBox.swift */; };
 		A692F5A923CE3A8A002A3902 /* YSCheckBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692F58D23CE3A8A002A3902 /* YSCheckBoxViewController.swift */; };
 		A692F5AA23CE3A8A002A3902 /* YSCheckBoxGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692F58E23CE3A8A002A3902 /* YSCheckBoxGroupView.swift */; };
-		A692F5BC23CE54FA002A3902 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A692F5B023CE54FA002A3902 /* LICENSE */; };
-		A692F5BD23CE54FA002A3902 /* DropdownMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A692F5B223CE54FA002A3902 /* DropdownMenuController.m */; };
-		A692F5BE23CE54FA002A3902 /* DropdownMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A692F5B323CE54FA002A3902 /* DropdownMenuSegue.m */; };
-		A692F5BF23CE54FA002A3902 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A692F5B623CE54FA002A3902 /* readme.md */; };
 		A6A7610F2373E7FD00AA49CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A7610E2373E7FD00AA49CB /* AppDelegate.swift */; };
 		A6A761112373E7FD00AA49CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A761102373E7FD00AA49CB /* ViewController.swift */; };
 		A6A761142373E7FD00AA49CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A761122373E7FD00AA49CB /* Main.storyboard */; };
@@ -104,12 +100,6 @@
 		A692F58C23CE3A8A002A3902 /* YSCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSCheckBox.swift; sourceTree = "<group>"; };
 		A692F58D23CE3A8A002A3902 /* YSCheckBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSCheckBoxViewController.swift; sourceTree = "<group>"; };
 		A692F58E23CE3A8A002A3902 /* YSCheckBoxGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSCheckBoxGroupView.swift; sourceTree = "<group>"; };
-		A692F5B023CE54FA002A3902 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A692F5B223CE54FA002A3902 /* DropdownMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenuController.m; sourceTree = "<group>"; };
-		A692F5B323CE54FA002A3902 /* DropdownMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenuSegue.m; sourceTree = "<group>"; };
-		A692F5B423CE54FA002A3902 /* DropdownMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenuSegue.h; sourceTree = "<group>"; };
-		A692F5B523CE54FA002A3902 /* DropdownMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenuController.h; sourceTree = "<group>"; };
-		A692F5B623CE54FA002A3902 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		A6A7610E2373E7FD00AA49CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6A761102373E7FD00AA49CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6A761132373E7FD00AA49CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,7 +133,6 @@
 		A692F56A23CE3A8A002A3902 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A692F5AF23CE54FA002A3902 /* DropdownMenu */,
 				A692F56B23CE3A8A002A3902 /* Pods.xcodeproj */,
 				A692F56E23CE3A8A002A3902 /* Target Support Files */,
 				A692F58423CE3A8A002A3902 /* Manifest.lock */,
@@ -234,27 +223,6 @@
 				A692F58E23CE3A8A002A3902 /* YSCheckBoxGroupView.swift */,
 			);
 			path = YSCheckBox;
-			sourceTree = "<group>";
-		};
-		A692F5AF23CE54FA002A3902 /* DropdownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				A692F5B023CE54FA002A3902 /* LICENSE */,
-				A692F5B123CE54FA002A3902 /* DropdownMenu */,
-				A692F5B623CE54FA002A3902 /* readme.md */,
-			);
-			path = DropdownMenu;
-			sourceTree = "<group>";
-		};
-		A692F5B123CE54FA002A3902 /* DropdownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				A692F5B223CE54FA002A3902 /* DropdownMenuController.m */,
-				A692F5B323CE54FA002A3902 /* DropdownMenuSegue.m */,
-				A692F5B423CE54FA002A3902 /* DropdownMenuSegue.h */,
-				A692F5B523CE54FA002A3902 /* DropdownMenuController.h */,
-			);
-			path = DropdownMenu;
 			sourceTree = "<group>";
 		};
 		A6A761022373E7FC00AA49CB = {
@@ -387,7 +355,6 @@
 				A692F59E23CE3A8A002A3902 /* Pods-LossLess-frameworks-Release-input-files.xcfilelist in Resources */,
 				A67299B923AAA04E00ECABDE /* Penguin2_1.png in Resources */,
 				A6A761192373E7FE00AA49CB /* LaunchScreen.storyboard in Resources */,
-				A692F5BC23CE54FA002A3902 /* LICENSE in Resources */,
 				A692F59823CE3A8A002A3902 /* Pods-LossLess-Info.plist in Resources */,
 				A692F5A323CE3A8A002A3902 /* Manifest.lock in Resources */,
 				A692F59523CE3A8A002A3902 /* Pods-LossLess-frameworks-Debug-input-files.xcfilelist in Resources */,
@@ -396,7 +363,6 @@
 				A692F59623CE3A8A002A3902 /* Pods-LossLess-frameworks.sh in Resources */,
 				A6A761162373E7FE00AA49CB /* Assets.xcassets in Resources */,
 				A692F5A623CE3A8A002A3902 /* README.md in Resources */,
-				A692F5BF23CE54FA002A3902 /* readme.md in Resources */,
 				A6A761142373E7FD00AA49CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,13 +417,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A692F5AA23CE3A8A002A3902 /* YSCheckBoxGroupView.swift in Sources */,
-				A692F5BD23CE54FA002A3902 /* DropdownMenuController.m in Sources */,
 				A692F5A123CE3A8A002A3902 /* YSCheckBox-dummy.m in Sources */,
 				A692F5A823CE3A8A002A3902 /* YSCheckBox.swift in Sources */,
 				A692F59C23CE3A8A002A3902 /* Pods-LossLess-dummy.m in Sources */,
 				A692F5A923CE3A8A002A3902 /* YSCheckBoxViewController.swift in Sources */,
 				A692F5A723CE3A8A002A3902 /* YSCheckBoxModel.swift in Sources */,
-				A692F5BE23CE54FA002A3902 /* DropdownMenuSegue.m in Sources */,
 				A6823E44237B1A8900C02570 /* TableViewCell.swift in Sources */,
 				A6A761112373E7FD00AA49CB /* ViewController.swift in Sources */,
 				A6A7610F2373E7FD00AA49CB /* AppDelegate.swift in Sources */,
