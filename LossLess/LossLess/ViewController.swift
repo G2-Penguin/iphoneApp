@@ -2,7 +2,7 @@ import UIKit
 import YSCheckBox
 
 class ViewController: UIViewController, YSCheckBoxViewControllerDelegate {
-    
+
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var container: UIView!
     
@@ -14,7 +14,7 @@ class ViewController: UIViewController, YSCheckBoxViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let checkBox = YSCheckBoxViewController(labels: ["hoge", "hogehoge", "hogehogehoge"])
+        let checkBox = YSCheckBoxViewController(labels: ["Orange","GrapeFruits","Banana"])
         
         checkBox.delegate = self
         checkBox.font = UIFont.systemFont(ofSize: 18)
@@ -28,20 +28,20 @@ class ViewController: UIViewController, YSCheckBoxViewControllerDelegate {
         checkBox.checkBoxCheckStroke = .white
         checkBox.checkBoxSelectedFill = UIColor(red: 0, green: 122 / 255, blue: 1, alpha: 1)
         checkBox.checkBoxBGFill = UIColor(red: 0.95, green: 0.95, blue: 0.95, alpha: 1)
-        
+
         addChild(checkBox)
         checkBox.view.frame = container.bounds
         container.addSubview(checkBox.view)
         checkBox.didMove(toParent: self)
         
-        fetchArticles() // メソッドに切り出し
-        initTableView() // メソッドに切り出し
+        fetchArticles()
+        initTableView()
     }
     
     func didYSCeckBoxSelect(checks: [Bool]) {
         print(checks)
     }
-
+    
     private func fetchArticles() {
         super.viewDidLoad()
         

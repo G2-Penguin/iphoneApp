@@ -1,11 +1,3 @@
-//
-//  TableViewCell.swift
-//  LossLess
-//
-//  Created by 森大樹 on 2019/11/13.
-//  Copyright © 2019 LossLess. All rights reserved.
-//
-
 import UIKit
 
 class TableViewCell: UITableViewCell {
@@ -14,15 +6,13 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var productImage2: UIImageView!
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        // Configure the view for the selected state
     }
     
     func bindData(text1: String, text2: String) {
