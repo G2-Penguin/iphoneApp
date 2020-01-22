@@ -17,8 +17,13 @@
 		A68C733423D7EEEB002D6B0E /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C733323D7EEEB002D6B0E /* ProductViewController.swift */; };
 		A68C733623D7EEFB002D6B0E /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C733523D7EEFB002D6B0E /* PriceViewController.swift */; };
 		A68C733823D7EF27002D6B0E /* StoreDetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C733723D7EF27002D6B0E /* StoreDetViewController.swift */; };
-		A68C733B23D7F8B9002D6B0E /* StoreallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C733923D7F8B9002D6B0E /* StoreallTableViewCell.swift */; };
-		A68C733C23D7F8B9002D6B0E /* StoreallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C733A23D7F8B9002D6B0E /* StoreallTableViewCell.xib */; };
+		A68C733F23D809C2002D6B0E /* ロゴ1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C733D23D809C2002D6B0E /* ロゴ1.png */; };
+		A68C734023D809C2002D6B0E /* Penguin2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C733E23D809C2002D6B0E /* Penguin2_1.png */; };
+		A68C734323D8232B002D6B0E /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C734123D8232A002D6B0E /* ProductTableViewCell.swift */; };
+		A68C734423D8232B002D6B0E /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C734223D8232B002D6B0E /* ProductTableViewCell.xib */; };
+		A68C734723D8233F002D6B0E /* PriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C734523D8233F002D6B0E /* PriceTableViewCell.swift */; };
+		A68C734823D8233F002D6B0E /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C734623D8233F002D6B0E /* PriceTableViewCell.xib */; };
+		A68C735023D86401002D6B0E /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C734F23D86401002D6B0E /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +39,13 @@
 		A68C733323D7EEEB002D6B0E /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		A68C733523D7EEFB002D6B0E /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
 		A68C733723D7EF27002D6B0E /* StoreDetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetViewController.swift; sourceTree = "<group>"; };
-		A68C733923D7F8B9002D6B0E /* StoreallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreallTableViewCell.swift; sourceTree = "<group>"; };
-		A68C733A23D7F8B9002D6B0E /* StoreallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreallTableViewCell.xib; sourceTree = "<group>"; };
+		A68C733D23D809C2002D6B0E /* ロゴ1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ロゴ1.png"; sourceTree = "<group>"; };
+		A68C733E23D809C2002D6B0E /* Penguin2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penguin2_1.png; sourceTree = "<group>"; };
+		A68C734123D8232A002D6B0E /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A68C734223D8232B002D6B0E /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		A68C734523D8233F002D6B0E /* PriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTableViewCell.swift; sourceTree = "<group>"; };
+		A68C734623D8233F002D6B0E /* PriceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
+		A68C734F23D86401002D6B0E /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +81,7 @@
 				A68C731723D7AEFA002D6B0E /* AppDelegate.swift */,
 				A68C731923D7AEFA002D6B0E /* SceneDelegate.swift */,
 				A68C731D23D7AEFA002D6B0E /* Main.storyboard */,
-				A68C733923D7F8B9002D6B0E /* StoreallTableViewCell.swift */,
-				A68C733A23D7F8B9002D6B0E /* StoreallTableViewCell.xib */,
+				A68C734F23D86401002D6B0E /* ModalViewController.swift */,
 				A68C732023D7AEFB002D6B0E /* Assets.xcassets */,
 				A68C732223D7AEFB002D6B0E /* LaunchScreen.storyboard */,
 				A68C732523D7AEFB002D6B0E /* Info.plist */,
@@ -81,6 +90,12 @@
 				A68C733323D7EEEB002D6B0E /* ProductViewController.swift */,
 				A68C733523D7EEFB002D6B0E /* PriceViewController.swift */,
 				A68C733723D7EF27002D6B0E /* StoreDetViewController.swift */,
+				A68C733E23D809C2002D6B0E /* Penguin2_1.png */,
+				A68C733D23D809C2002D6B0E /* ロゴ1.png */,
+				A68C734123D8232A002D6B0E /* ProductTableViewCell.swift */,
+				A68C734223D8232B002D6B0E /* ProductTableViewCell.xib */,
+				A68C734523D8233F002D6B0E /* PriceTableViewCell.swift */,
+				A68C734623D8233F002D6B0E /* PriceTableViewCell.xib */,
 			);
 			path = LossLess3;
 			sourceTree = "<group>";
@@ -143,10 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68C733F23D809C2002D6B0E /* ロゴ1.png in Resources */,
+				A68C734023D809C2002D6B0E /* Penguin2_1.png in Resources */,
 				A68C732423D7AEFB002D6B0E /* LaunchScreen.storyboard in Resources */,
+				A68C734423D8232B002D6B0E /* ProductTableViewCell.xib in Resources */,
 				A68C732123D7AEFB002D6B0E /* Assets.xcassets in Resources */,
+				A68C734823D8233F002D6B0E /* PriceTableViewCell.xib in Resources */,
 				A68C731F23D7AEFA002D6B0E /* Main.storyboard in Resources */,
-				A68C733C23D7F8B9002D6B0E /* StoreallTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,12 +177,14 @@
 			files = (
 				A68C733223D7EEC3002D6B0E /* StoreAllViewController.swift in Sources */,
 				A68C733823D7EF27002D6B0E /* StoreDetViewController.swift in Sources */,
+				A68C734323D8232B002D6B0E /* ProductTableViewCell.swift in Sources */,
+				A68C734723D8233F002D6B0E /* PriceTableViewCell.swift in Sources */,
 				A68C733023D7C868002D6B0E /* TestTabBarController.swift in Sources */,
 				A68C733623D7EEFB002D6B0E /* PriceViewController.swift in Sources */,
+				A68C735023D86401002D6B0E /* ModalViewController.swift in Sources */,
 				A68C731823D7AEFA002D6B0E /* AppDelegate.swift in Sources */,
 				A68C733423D7EEEB002D6B0E /* ProductViewController.swift in Sources */,
 				A68C731A23D7AEFA002D6B0E /* SceneDelegate.swift in Sources */,
-				A68C733B23D7F8B9002D6B0E /* StoreallTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +327,6 @@
 		A68C732923D7AEFB002D6B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN9942D2CW;
 				INFOPLIST_FILE = LossLess3/Info.plist;
@@ -325,7 +344,6 @@
 		A68C732A23D7AEFB002D6B0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN9942D2CW;
 				INFOPLIST_FILE = LossLess3/Info.plist;

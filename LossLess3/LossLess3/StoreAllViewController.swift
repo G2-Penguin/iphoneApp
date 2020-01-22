@@ -2,57 +2,93 @@ import UIKit
 
 class StoreAllViewController: UIViewController {
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var ShopAimg: UIButton!
+    @IBOutlet weak var ShopBimg: UIButton!
+    @IBOutlet weak var ShopCimg: UIButton!
+    @IBOutlet weak var ShopDimg: UIButton!
+    
+    var numA = 0
+    var numB = 0
+    var numC = 0
+    var numD = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        getData()
     }
     
-    func getData() {
-        let url : URL = URL(string: "http://qiita.com/api/v2/items")!
-        let task: URLSessionTask = URLSession.shared.dataTask(with: url, completionHandler: {data, response, error in
-            print("data: \(data)")
-            print("response: \(response)")
-            print("error: \(error)")
-        })
-        task.resume()
-        tableView.register(UINib(nibName: "StoreallTableViewCell", bundle: nil), forCellReuseIdentifier: "StoreallTableViewCell")
+    @IBAction func shopAbt() {
+        
     }
-}
-
-extension StoreAllViewController: UITableViewDataSource {
-
-    // セクションの個数を返す
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+    
+    @IBAction func shopBbt() {
+        
     }
-
-    // セクションごとにセルの個数を返す
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+    
+    @IBAction func shopbtC() {
+        
     }
-
-    // セルの中身を返す
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: StoreallTableViewCell = tableView.dequeueReusableCell(withIdentifier: "StoreallTableViewCell") as! StoreallTableViewCell
-        return cell
+    
+    @IBAction func shopbtD() {
+        
     }
-
-    // セルの高さを返す
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+    
+    @IBAction func shopAlikebt() {
+        if numA == 0 {
+            let image = UIImage(systemName: "star.fill")
+            let state = UIControl.State.normal
+            ShopAimg.setImage(image, for: state)
+            numA = 1
+        }
+        else {
+            let image = UIImage(systemName: "star")
+            let state = UIControl.State.normal
+            ShopAimg.setImage(image, for: state)
+            numA = 0
+        }
     }
-}
-
-extension StoreAllViewController: UITableViewDelegate {
-
-    // セルがタップされたときの処理を書く
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("section: \(indexPath.section) index: \(indexPath.row)")
+    
+    @IBAction func shopBlikebt() {
+        if numB == 0 {
+            let image = UIImage(systemName: "star.fill")
+            let state = UIControl.State.normal
+            ShopBimg.setImage(image, for: state)
+            numB = 1
+        }
+        else {
+            let image = UIImage(systemName: "star")
+            let state = UIControl.State.normal
+            ShopBimg.setImage(image, for: state)
+            numB = 0
+        }
     }
-
-    // スクロールしたときの処理を書く
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        return
+    
+    @IBAction func shopClikebt() {
+        if numC == 0 {
+            let image = UIImage(systemName: "star.fill")
+            let state = UIControl.State.normal
+            ShopCimg.setImage(image, for: state)
+            numC = 1
+        }
+        else {
+            let image = UIImage(systemName: "star")
+            let state = UIControl.State.normal
+            ShopCimg.setImage(image, for: state)
+            numC = 0
+        }
+    }
+    
+    @IBAction func shopDlikebt() {
+        if numD == 0 {
+            let image = UIImage(systemName: "star.fill")
+            let state = UIControl.State.normal
+            ShopDimg.setImage(image, for: state)
+            numD = 1
+        }
+        else {
+            let image = UIImage(systemName: "star")
+            let state = UIControl.State.normal
+            ShopDimg.setImage(image, for: state)
+            numD = 0
+        }
     }
 }
