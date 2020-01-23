@@ -1,7 +1,7 @@
 import UIKit
 import YSCheckBox
 
-class ModalViewController: UIViewController, YSCheckBoxViewControllerDelegate {
+class Modal2ViewController: UIViewController, YSCheckBoxViewControllerDelegate {
 
     @IBOutlet weak var container: UIView!
     

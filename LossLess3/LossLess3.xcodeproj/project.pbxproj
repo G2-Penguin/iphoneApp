@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A86624125B8AA367A4B4A6 /* Pods_LossLess3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50AA1AD0B0F9F6759FE4DB1 /* Pods_LossLess3.framework */; };
 		A68C731823D7AEFA002D6B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C731723D7AEFA002D6B0E /* AppDelegate.swift */; };
 		A68C731A23D7AEFA002D6B0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C731923D7AEFA002D6B0E /* SceneDelegate.swift */; };
 		A68C731F23D7AEFA002D6B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68C731D23D7AEFA002D6B0E /* Main.storyboard */; };
@@ -17,16 +18,52 @@
 		A68C733423D7EEEB002D6B0E /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C733323D7EEEB002D6B0E /* ProductViewController.swift */; };
 		A68C733623D7EEFB002D6B0E /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C733523D7EEFB002D6B0E /* PriceViewController.swift */; };
 		A68C733823D7EF27002D6B0E /* StoreDetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C733723D7EF27002D6B0E /* StoreDetViewController.swift */; };
-		A68C733F23D809C2002D6B0E /* ロゴ1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C733D23D809C2002D6B0E /* ロゴ1.png */; };
-		A68C734023D809C2002D6B0E /* Penguin2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C733E23D809C2002D6B0E /* Penguin2_1.png */; };
 		A68C734323D8232B002D6B0E /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C734123D8232A002D6B0E /* ProductTableViewCell.swift */; };
 		A68C734423D8232B002D6B0E /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C734223D8232B002D6B0E /* ProductTableViewCell.xib */; };
 		A68C734723D8233F002D6B0E /* PriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C734523D8233F002D6B0E /* PriceTableViewCell.swift */; };
 		A68C734823D8233F002D6B0E /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C734623D8233F002D6B0E /* PriceTableViewCell.xib */; };
 		A68C735023D86401002D6B0E /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C734F23D86401002D6B0E /* ModalViewController.swift */; };
+		A68C735423D8D84F002D6B0E /* Modal2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C735323D8D84F002D6B0E /* Modal2ViewController.swift */; };
+		A68C745923D95D25002D6B0E /* menu-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743523D95D25002D6B0E /* menu-filled.png */; };
+		A68C745A23D95D25002D6B0E /* return_sel_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743623D95D25002D6B0E /* return_sel_d.png */; };
+		A68C745B23D95D25002D6B0E /* sale_nom_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743723D95D25002D6B0E /* sale_nom_c.png */; };
+		A68C745C23D95D25002D6B0E /* return_nom_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743823D95D25002D6B0E /* return_nom_c.png */; };
+		A68C745D23D95D25002D6B0E /* sale_sel_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743923D95D25002D6B0E /* sale_sel_d.png */; };
+		A68C745E23D95D25002D6B0E /* return_nom_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743A23D95D25002D6B0E /* return_nom_b.png */; };
+		A68C745F23D95D25002D6B0E /* sale_nom_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743B23D95D25002D6B0E /* sale_nom_b.png */; };
+		A68C746023D95D25002D6B0E /* return_nom_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743C23D95D25002D6B0E /* return_nom_a.png */; };
+		A68C746123D95D25002D6B0E /* sale_nom_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743D23D95D25002D6B0E /* sale_nom_a.png */; };
+		A68C746223D95D25002D6B0E /* return_sel_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743E23D95D25002D6B0E /* return_sel_b.png */; };
+		A68C746323D95D25002D6B0E /* sale_sel_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C743F23D95D25002D6B0E /* sale_sel_b.png */; };
+		A68C746423D95D25002D6B0E /* return_nom_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744023D95D25002D6B0E /* return_nom_d.png */; };
+		A68C746523D95D25002D6B0E /* sale_sel_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744123D95D25002D6B0E /* sale_sel_c.png */; };
+		A68C746623D95D25002D6B0E /* return_sel_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744223D95D25002D6B0E /* return_sel_c.png */; };
+		A68C746723D95D25002D6B0E /* sale_nom_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744323D95D25002D6B0E /* sale_nom_d.png */; };
+		A68C746823D95D25002D6B0E /* return_sel_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744423D95D25002D6B0E /* return_sel_a.png */; };
+		A68C746923D95D25002D6B0E /* sale_sel_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744523D95D25002D6B0E /* sale_sel_a.png */; };
+		A68C746A23D95D25002D6B0E /* ロゴ1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744623D95D25002D6B0E /* ロゴ1.png */; };
+		A68C746B23D95D25002D6B0E /* Penguin2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744723D95D25002D6B0E /* Penguin2_1.png */; };
+		A68C746C23D95D25002D6B0E /* product_sel_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744823D95D25002D6B0E /* product_sel_c.png */; };
+		A68C746D23D95D25002D6B0E /* store_sel_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744923D95D25002D6B0E /* store_sel_c.png */; };
+		A68C746E23D95D25002D6B0E /* store_nom_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744A23D95D25002D6B0E /* store_nom_d.png */; };
+		A68C746F23D95D25002D6B0E /* product_nom_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744B23D95D25002D6B0E /* product_nom_d.png */; };
+		A68C747023D95D25002D6B0E /* store_sel_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744C23D95D25002D6B0E /* store_sel_b.png */; };
+		A68C747123D95D25002D6B0E /* product_sel_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744D23D95D25002D6B0E /* product_sel_b.png */; };
+		A68C747223D95D25002D6B0E /* store_sel_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744E23D95D25002D6B0E /* store_sel_a.png */; };
+		A68C747323D95D25002D6B0E /* product_sel_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C744F23D95D25002D6B0E /* product_sel_a.png */; };
+		A68C747423D95D25002D6B0E /* store_nom_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745023D95D25002D6B0E /* store_nom_b.png */; };
+		A68C747523D95D25002D6B0E /* product_nom_b.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745123D95D25002D6B0E /* product_nom_b.png */; };
+		A68C747623D95D25002D6B0E /* product_nom_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745223D95D25002D6B0E /* product_nom_c.png */; };
+		A68C747723D95D25002D6B0E /* Penguin1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745323D95D25002D6B0E /* Penguin1_1.png */; };
+		A68C747823D95D25002D6B0E /* store_nom_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745423D95D25002D6B0E /* store_nom_c.png */; };
+		A68C747923D95D25002D6B0E /* store_sel_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745523D95D25002D6B0E /* store_sel_d.png */; };
+		A68C747A23D95D25002D6B0E /* product_sel_d.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745623D95D25002D6B0E /* product_sel_d.png */; };
+		A68C747B23D95D25002D6B0E /* store_nom_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745723D95D25002D6B0E /* store_nom_a.png */; };
+		A68C747C23D95D25002D6B0E /* product_nom_a.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C745823D95D25002D6B0E /* product_nom_a.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DAA9A4B1546FED5E13F75B1 /* Pods-LossLess3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LossLess3.release.xcconfig"; path = "Target Support Files/Pods-LossLess3/Pods-LossLess3.release.xcconfig"; sourceTree = "<group>"; };
 		A68C731423D7AEFA002D6B0E /* LossLess3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LossLess3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68C731723D7AEFA002D6B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68C731923D7AEFA002D6B0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +76,50 @@
 		A68C733323D7EEEB002D6B0E /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		A68C733523D7EEFB002D6B0E /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
 		A68C733723D7EF27002D6B0E /* StoreDetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetViewController.swift; sourceTree = "<group>"; };
-		A68C733D23D809C2002D6B0E /* ロゴ1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ロゴ1.png"; sourceTree = "<group>"; };
-		A68C733E23D809C2002D6B0E /* Penguin2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penguin2_1.png; sourceTree = "<group>"; };
 		A68C734123D8232A002D6B0E /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		A68C734223D8232B002D6B0E /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		A68C734523D8233F002D6B0E /* PriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTableViewCell.swift; sourceTree = "<group>"; };
 		A68C734623D8233F002D6B0E /* PriceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
 		A68C734F23D86401002D6B0E /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		A68C735323D8D84F002D6B0E /* Modal2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal2ViewController.swift; sourceTree = "<group>"; };
+		A68C743523D95D25002D6B0E /* menu-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-filled.png"; sourceTree = "<group>"; };
+		A68C743623D95D25002D6B0E /* return_sel_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_sel_d.png; sourceTree = "<group>"; };
+		A68C743723D95D25002D6B0E /* sale_nom_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_nom_c.png; sourceTree = "<group>"; };
+		A68C743823D95D25002D6B0E /* return_nom_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_nom_c.png; sourceTree = "<group>"; };
+		A68C743923D95D25002D6B0E /* sale_sel_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_sel_d.png; sourceTree = "<group>"; };
+		A68C743A23D95D25002D6B0E /* return_nom_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_nom_b.png; sourceTree = "<group>"; };
+		A68C743B23D95D25002D6B0E /* sale_nom_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_nom_b.png; sourceTree = "<group>"; };
+		A68C743C23D95D25002D6B0E /* return_nom_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_nom_a.png; sourceTree = "<group>"; };
+		A68C743D23D95D25002D6B0E /* sale_nom_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_nom_a.png; sourceTree = "<group>"; };
+		A68C743E23D95D25002D6B0E /* return_sel_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_sel_b.png; sourceTree = "<group>"; };
+		A68C743F23D95D25002D6B0E /* sale_sel_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_sel_b.png; sourceTree = "<group>"; };
+		A68C744023D95D25002D6B0E /* return_nom_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_nom_d.png; sourceTree = "<group>"; };
+		A68C744123D95D25002D6B0E /* sale_sel_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_sel_c.png; sourceTree = "<group>"; };
+		A68C744223D95D25002D6B0E /* return_sel_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_sel_c.png; sourceTree = "<group>"; };
+		A68C744323D95D25002D6B0E /* sale_nom_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_nom_d.png; sourceTree = "<group>"; };
+		A68C744423D95D25002D6B0E /* return_sel_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return_sel_a.png; sourceTree = "<group>"; };
+		A68C744523D95D25002D6B0E /* sale_sel_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_sel_a.png; sourceTree = "<group>"; };
+		A68C744623D95D25002D6B0E /* ロゴ1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ロゴ1.png"; sourceTree = "<group>"; };
+		A68C744723D95D25002D6B0E /* Penguin2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penguin2_1.png; sourceTree = "<group>"; };
+		A68C744823D95D25002D6B0E /* product_sel_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_sel_c.png; sourceTree = "<group>"; };
+		A68C744923D95D25002D6B0E /* store_sel_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_sel_c.png; sourceTree = "<group>"; };
+		A68C744A23D95D25002D6B0E /* store_nom_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_nom_d.png; sourceTree = "<group>"; };
+		A68C744B23D95D25002D6B0E /* product_nom_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_nom_d.png; sourceTree = "<group>"; };
+		A68C744C23D95D25002D6B0E /* store_sel_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_sel_b.png; sourceTree = "<group>"; };
+		A68C744D23D95D25002D6B0E /* product_sel_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_sel_b.png; sourceTree = "<group>"; };
+		A68C744E23D95D25002D6B0E /* store_sel_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_sel_a.png; sourceTree = "<group>"; };
+		A68C744F23D95D25002D6B0E /* product_sel_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_sel_a.png; sourceTree = "<group>"; };
+		A68C745023D95D25002D6B0E /* store_nom_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_nom_b.png; sourceTree = "<group>"; };
+		A68C745123D95D25002D6B0E /* product_nom_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_nom_b.png; sourceTree = "<group>"; };
+		A68C745223D95D25002D6B0E /* product_nom_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_nom_c.png; sourceTree = "<group>"; };
+		A68C745323D95D25002D6B0E /* Penguin1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penguin1_1.png; sourceTree = "<group>"; };
+		A68C745423D95D25002D6B0E /* store_nom_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_nom_c.png; sourceTree = "<group>"; };
+		A68C745523D95D25002D6B0E /* store_sel_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_sel_d.png; sourceTree = "<group>"; };
+		A68C745623D95D25002D6B0E /* product_sel_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_sel_d.png; sourceTree = "<group>"; };
+		A68C745723D95D25002D6B0E /* store_nom_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_nom_a.png; sourceTree = "<group>"; };
+		A68C745823D95D25002D6B0E /* product_nom_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_nom_a.png; sourceTree = "<group>"; };
+		CBC1299CFA14F7AF61560F1D /* Pods-LossLess3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LossLess3.debug.xcconfig"; path = "Target Support Files/Pods-LossLess3/Pods-LossLess3.debug.xcconfig"; sourceTree = "<group>"; };
+		F50AA1AD0B0F9F6759FE4DB1 /* Pods_LossLess3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LossLess3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A86624125B8AA367A4B4A6 /* Pods_LossLess3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +139,8 @@
 			children = (
 				A68C731623D7AEFA002D6B0E /* LossLess3 */,
 				A68C731523D7AEFA002D6B0E /* Products */,
+				F9AB9D5F7B6F42C72AABB443 /* Pods */,
+				B28FE690A18F478F8AF5AAF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +155,12 @@
 		A68C731623D7AEFA002D6B0E /* LossLess3 */ = {
 			isa = PBXGroup;
 			children = (
+				A68C743423D95D25002D6B0E /* Losslessimg */,
 				A68C731723D7AEFA002D6B0E /* AppDelegate.swift */,
 				A68C731923D7AEFA002D6B0E /* SceneDelegate.swift */,
 				A68C731D23D7AEFA002D6B0E /* Main.storyboard */,
 				A68C734F23D86401002D6B0E /* ModalViewController.swift */,
+				A68C735323D8D84F002D6B0E /* Modal2ViewController.swift */,
 				A68C732023D7AEFB002D6B0E /* Assets.xcassets */,
 				A68C732223D7AEFB002D6B0E /* LaunchScreen.storyboard */,
 				A68C732523D7AEFB002D6B0E /* Info.plist */,
@@ -90,14 +169,72 @@
 				A68C733323D7EEEB002D6B0E /* ProductViewController.swift */,
 				A68C733523D7EEFB002D6B0E /* PriceViewController.swift */,
 				A68C733723D7EF27002D6B0E /* StoreDetViewController.swift */,
-				A68C733E23D809C2002D6B0E /* Penguin2_1.png */,
-				A68C733D23D809C2002D6B0E /* ロゴ1.png */,
 				A68C734123D8232A002D6B0E /* ProductTableViewCell.swift */,
 				A68C734223D8232B002D6B0E /* ProductTableViewCell.xib */,
 				A68C734523D8233F002D6B0E /* PriceTableViewCell.swift */,
 				A68C734623D8233F002D6B0E /* PriceTableViewCell.xib */,
 			);
 			path = LossLess3;
+			sourceTree = "<group>";
+		};
+		A68C743423D95D25002D6B0E /* Losslessimg */ = {
+			isa = PBXGroup;
+			children = (
+				A68C743523D95D25002D6B0E /* menu-filled.png */,
+				A68C743623D95D25002D6B0E /* return_sel_d.png */,
+				A68C743723D95D25002D6B0E /* sale_nom_c.png */,
+				A68C743823D95D25002D6B0E /* return_nom_c.png */,
+				A68C743923D95D25002D6B0E /* sale_sel_d.png */,
+				A68C743A23D95D25002D6B0E /* return_nom_b.png */,
+				A68C743B23D95D25002D6B0E /* sale_nom_b.png */,
+				A68C743C23D95D25002D6B0E /* return_nom_a.png */,
+				A68C743D23D95D25002D6B0E /* sale_nom_a.png */,
+				A68C743E23D95D25002D6B0E /* return_sel_b.png */,
+				A68C743F23D95D25002D6B0E /* sale_sel_b.png */,
+				A68C744023D95D25002D6B0E /* return_nom_d.png */,
+				A68C744123D95D25002D6B0E /* sale_sel_c.png */,
+				A68C744223D95D25002D6B0E /* return_sel_c.png */,
+				A68C744323D95D25002D6B0E /* sale_nom_d.png */,
+				A68C744423D95D25002D6B0E /* return_sel_a.png */,
+				A68C744523D95D25002D6B0E /* sale_sel_a.png */,
+				A68C744623D95D25002D6B0E /* ロゴ1.png */,
+				A68C744723D95D25002D6B0E /* Penguin2_1.png */,
+				A68C744823D95D25002D6B0E /* product_sel_c.png */,
+				A68C744923D95D25002D6B0E /* store_sel_c.png */,
+				A68C744A23D95D25002D6B0E /* store_nom_d.png */,
+				A68C744B23D95D25002D6B0E /* product_nom_d.png */,
+				A68C744C23D95D25002D6B0E /* store_sel_b.png */,
+				A68C744D23D95D25002D6B0E /* product_sel_b.png */,
+				A68C744E23D95D25002D6B0E /* store_sel_a.png */,
+				A68C744F23D95D25002D6B0E /* product_sel_a.png */,
+				A68C745023D95D25002D6B0E /* store_nom_b.png */,
+				A68C745123D95D25002D6B0E /* product_nom_b.png */,
+				A68C745223D95D25002D6B0E /* product_nom_c.png */,
+				A68C745323D95D25002D6B0E /* Penguin1_1.png */,
+				A68C745423D95D25002D6B0E /* store_nom_c.png */,
+				A68C745523D95D25002D6B0E /* store_sel_d.png */,
+				A68C745623D95D25002D6B0E /* product_sel_d.png */,
+				A68C745723D95D25002D6B0E /* store_nom_a.png */,
+				A68C745823D95D25002D6B0E /* product_nom_a.png */,
+			);
+			path = Losslessimg;
+			sourceTree = "<group>";
+		};
+		B28FE690A18F478F8AF5AAF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50AA1AD0B0F9F6759FE4DB1 /* Pods_LossLess3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9AB9D5F7B6F42C72AABB443 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1299CFA14F7AF61560F1D /* Pods-LossLess3.debug.xcconfig */,
+				7DAA9A4B1546FED5E13F75B1 /* Pods-LossLess3.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68C732823D7AEFB002D6B0E /* Build configuration list for PBXNativeTarget "LossLess3" */;
 			buildPhases = (
+				8CC589F51C960166F7E48B5A /* [CP] Check Pods Manifest.lock */,
 				A68C731023D7AEFA002D6B0E /* Sources */,
 				A68C731123D7AEFA002D6B0E /* Frameworks */,
 				A68C731223D7AEFA002D6B0E /* Resources */,
+				7E0445BDF851A09B485DD6B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,11 +297,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A68C733F23D809C2002D6B0E /* ロゴ1.png in Resources */,
-				A68C734023D809C2002D6B0E /* Penguin2_1.png in Resources */,
+				A68C746223D95D25002D6B0E /* return_sel_b.png in Resources */,
+				A68C747223D95D25002D6B0E /* store_sel_a.png in Resources */,
+				A68C747023D95D25002D6B0E /* store_sel_b.png in Resources */,
+				A68C746B23D95D25002D6B0E /* Penguin2_1.png in Resources */,
+				A68C747823D95D25002D6B0E /* store_nom_c.png in Resources */,
+				A68C747723D95D25002D6B0E /* Penguin1_1.png in Resources */,
+				A68C746623D95D25002D6B0E /* return_sel_c.png in Resources */,
+				A68C745A23D95D25002D6B0E /* return_sel_d.png in Resources */,
+				A68C745C23D95D25002D6B0E /* return_nom_c.png in Resources */,
+				A68C747523D95D25002D6B0E /* product_nom_b.png in Resources */,
+				A68C745E23D95D25002D6B0E /* return_nom_b.png in Resources */,
+				A68C747323D95D25002D6B0E /* product_sel_a.png in Resources */,
+				A68C746D23D95D25002D6B0E /* store_sel_c.png in Resources */,
+				A68C747A23D95D25002D6B0E /* product_sel_d.png in Resources */,
+				A68C747923D95D25002D6B0E /* store_sel_d.png in Resources */,
+				A68C745D23D95D25002D6B0E /* sale_sel_d.png in Resources */,
+				A68C747B23D95D25002D6B0E /* store_nom_a.png in Resources */,
+				A68C745F23D95D25002D6B0E /* sale_nom_b.png in Resources */,
+				A68C746423D95D25002D6B0E /* return_nom_d.png in Resources */,
+				A68C745B23D95D25002D6B0E /* sale_nom_c.png in Resources */,
+				A68C746023D95D25002D6B0E /* return_nom_a.png in Resources */,
+				A68C747123D95D25002D6B0E /* product_sel_b.png in Resources */,
+				A68C746C23D95D25002D6B0E /* product_sel_c.png in Resources */,
+				A68C746E23D95D25002D6B0E /* store_nom_d.png in Resources */,
 				A68C732423D7AEFB002D6B0E /* LaunchScreen.storyboard in Resources */,
 				A68C734423D8232B002D6B0E /* ProductTableViewCell.xib in Resources */,
+				A68C747623D95D25002D6B0E /* product_nom_c.png in Resources */,
+				A68C746A23D95D25002D6B0E /* ロゴ1.png in Resources */,
+				A68C746F23D95D25002D6B0E /* product_nom_d.png in Resources */,
+				A68C746523D95D25002D6B0E /* sale_sel_c.png in Resources */,
+				A68C746323D95D25002D6B0E /* sale_sel_b.png in Resources */,
+				A68C746723D95D25002D6B0E /* sale_nom_d.png in Resources */,
+				A68C747423D95D25002D6B0E /* store_nom_b.png in Resources */,
+				A68C746923D95D25002D6B0E /* sale_sel_a.png in Resources */,
+				A68C746123D95D25002D6B0E /* sale_nom_a.png in Resources */,
+				A68C745923D95D25002D6B0E /* menu-filled.png in Resources */,
 				A68C732123D7AEFB002D6B0E /* Assets.xcassets in Resources */,
+				A68C746823D95D25002D6B0E /* return_sel_a.png in Resources */,
+				A68C747C23D95D25002D6B0E /* product_nom_a.png in Resources */,
 				A68C734823D8233F002D6B0E /* PriceTableViewCell.xib in Resources */,
 				A68C731F23D7AEFA002D6B0E /* Main.storyboard in Resources */,
 			);
@@ -170,12 +343,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E0445BDF851A09B485DD6B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LossLess3/Pods-LossLess3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LossLess3/Pods-LossLess3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LossLess3/Pods-LossLess3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC589F51C960166F7E48B5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LossLess3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A68C731023D7AEFA002D6B0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A68C733223D7EEC3002D6B0E /* StoreAllViewController.swift in Sources */,
+				A68C735423D8D84F002D6B0E /* Modal2ViewController.swift in Sources */,
 				A68C733823D7EF27002D6B0E /* StoreDetViewController.swift in Sources */,
 				A68C734323D8232B002D6B0E /* ProductTableViewCell.swift in Sources */,
 				A68C734723D8233F002D6B0E /* PriceTableViewCell.swift in Sources */,
@@ -326,6 +542,7 @@
 		};
 		A68C732923D7AEFB002D6B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC1299CFA14F7AF61560F1D /* Pods-LossLess3.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN9942D2CW;
@@ -343,6 +560,7 @@
 		};
 		A68C732A23D7AEFB002D6B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAA9A4B1546FED5E13F75B1 /* Pods-LossLess3.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN9942D2CW;

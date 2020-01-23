@@ -40,18 +40,8 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QK-R7-gxQ">
-                        <rect key="frame" x="198" y="125" width="98" height="40"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="130" id="kdo-w4-ZmL"/>
-                            <constraint firstAttribute="height" constant="40" id="nuE-ef-yv4"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFM-ur-hsK">
-                        <rect key="frame" x="132" y="165" width="54" height="20"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFM-ur-hsK">
+                        <rect key="frame" x="132" y="165" width="60" height="20"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="60" id="TFT-5T-1AY"/>
                             <constraint firstAttribute="height" constant="20" id="vdr-9t-gwf"/>
@@ -70,17 +60,28 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QK-R7-gxQ">
+                        <rect key="frame" x="189" y="125" width="130" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="GJ2-0h-LaP"/>
+                            <constraint firstAttribute="height" constant="40" id="Mml-Zc-XDK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="bottom" secondItem="jFM-ur-hsK" secondAttribute="bottom" constant="5" id="1KM-8Y-uaR"/>
+                    <constraint firstItem="9QK-R7-gxQ" firstAttribute="top" secondItem="KXt-XP-s0p" secondAttribute="bottom" constant="5" id="5o6-c4-vWY"/>
                     <constraint firstAttribute="bottom" secondItem="jFM-ur-hsK" secondAttribute="bottom" constant="5" id="64L-KF-R6X"/>
                     <constraint firstAttribute="trailing" secondItem="KXt-XP-s0p" secondAttribute="trailing" id="ApK-07-zmf"/>
                     <constraint firstAttribute="bottom" secondItem="iXb-up-GwX" secondAttribute="bottom" constant="5" id="FVv-7A-Yjb"/>
                     <constraint firstItem="KXt-XP-s0p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="OZ9-Mj-I41"/>
                     <constraint firstItem="IQm-Bn-xef" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="PCT-mV-MZe"/>
-                    <constraint firstItem="9QK-R7-gxQ" firstAttribute="top" secondItem="KXt-XP-s0p" secondAttribute="bottom" constant="5" id="UwZ-1D-qfu"/>
-                    <constraint firstItem="9QK-R7-gxQ" firstAttribute="leading" secondItem="jFM-ur-hsK" secondAttribute="trailing" constant="192" id="ctD-OK-2rw"/>
                     <constraint firstItem="gOu-c0-LiT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fs0-PW-pet"/>
-                    <constraint firstItem="9QK-R7-gxQ" firstAttribute="leading" secondItem="jFM-ur-hsK" secondAttribute="trailing" constant="192" id="lGQ-fO-8Ba"/>
+                    <constraint firstItem="9QK-R7-gxQ" firstAttribute="leading" secondItem="IQm-Bn-xef" secondAttribute="trailing" constant="54" id="g6j-rD-4At"/>
+                    <constraint firstItem="jFM-ur-hsK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="132" id="luT-CX-QUB"/>
                     <constraint firstItem="gOu-c0-LiT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rKX-n1-JfN"/>
                     <constraint firstAttribute="trailing" secondItem="iXb-up-GwX" secondAttribute="trailing" constant="5" id="ydL-5l-qTJ"/>
                     <constraint firstItem="IQm-Bn-xef" firstAttribute="top" secondItem="gOu-c0-LiT" secondAttribute="bottom" constant="5" id="yxl-db-a62"/>
@@ -93,7 +94,7 @@
                 <outlet property="productImage1" destination="gOu-c0-LiT" id="fiS-Vz-IQL"/>
                 <outlet property="productImage2" destination="KXt-XP-s0p" id="Vii-CM-2Fe"/>
             </connections>
-            <point key="canvasLocation" x="136.95652173913044" y="93.75"/>
+            <point key="canvasLocation" x="136" y="94"/>
         </tableViewCell>
     </objects>
 </document>

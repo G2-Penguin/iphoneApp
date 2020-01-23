@@ -1,0 +1,21 @@
+PODS:
+  - YSCheckBox (0.0.1)
+
+DEPENDENCIES:
+  - YSCheckBox (from `https://github.com/sekies/YSCheckBox.git`)
+
+EXTERNAL SOURCES:
+  YSCheckBox:
+    :git: https://github.com/sekies/YSCheckBox.git
+
+CHECKOUT OPTIONS:
+  YSCheckBox:
+    :commit: b7220246caec53ddf0ef9ae401b6563f2c622920
+    :git: https://github.com/sekies/YSCheckBox.git
+
+SPEC CHECKSUMS:
+  YSCheckBox: 2f6b5e8d66784ba34844093a84198dcecdf69afa
+
+PODFILE CHECKSUM: 423be1b85ad5c0947d07a8e51c14bfc66a9e5f2b
+
+COCOAPODS: 1.8.4

@@ -24,7 +24,7 @@ class ProductViewController: UIViewController {
     private func fetchArticles() {
         super.viewDidLoad()
         
-        let url: URL = URL(string: "http://qiita.com/api/v2/items")!
+        let url: URL = URL(string: "")!
         let task: URLSessionTask = URLSession.shared.dataTask(with: url, completionHandler: {data, response, error in
             
             do {
@@ -64,7 +64,8 @@ extension ProductViewController: UITableViewDataSource {
     
     // セルの中身を返す
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: ProductTableViewCell = tableView.dequeueReusableCell(withIdentifier: "ProductTableViewCell") as! ProductTableViewCell
+        let cell:ProductTableViewCell = tableView.dequeueReusableCell(withIdentifier:
+            "ProductTableViewCell") as! ProductTableViewCell
         if indexPath.row < articles.count / 2 - 1 {
             let article1 = articles[2 * indexPath.row]
             let article2 = articles[2 * indexPath.row + 1]
@@ -94,5 +95,9 @@ extension ProductViewController: UITableViewDelegate {
     // スクロールしたときの処理を書く
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         return
+    }
+    
+    func checkboxmethod() {
+        
     }
 }
